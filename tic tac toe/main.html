@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
     <title>Tic Tac Toe</title>
-
     <!-- CSS FILE -->
     <link rel="stylesheet" type="text/css" href="tic.css">
+
+    <!-- JavaScript File-->
+    <script src="tic.js"></script>
 </head>
 
 <body>
@@ -21,25 +23,28 @@
             <br>
 
             <!-- 3x3 grid of boxes -->
-            <input type="text" id="b1">
-            <input type="text" id="b2">
-            <input type="text" id="b3">
+            <input type="text" id="b1" onclick="myfunc_1(); myfunc();" readonly>
+            <input type="text" id="b2" onclick="myfunc_2(); myfunc();" readonly>
+            <input type="text" id="b3" onclick="myfunc_3(); myfunc();" readonly>
             <br>
             <br>
-            <input type="text" id="b4">
-            <input type="text" id="b5">
-            <input type="text" id="b6">
+            <input type="text" id="b4" onclick="myfunc_4(); myfunc();" readonly> 
+            <input type="text" id="b5" onclick="myfunc_5(); myfunc();" readonly>
+            <input type="text" id="b6" onclick="myfunc_6(); myfunc();" readonly>
             <br>
             <br>
-            <input type="text" id="b7">
-            <input type="text" id="b8">
-            <input type="text" id="b9">
+            <input type="text" id="b7" onclick="myfunc_7(); myfunc();" readonly>
+            <input type="text" id="b8" onclick="myfunc_8(); myfunc();" readonly>
+            <input type="text" id="b9" onclick="myfunc_9(); myfunc();" readonly>
             <!-- Grid end here -->
+
+
+
             <br>
             <br>
             <br>
             <!-- Button to reset game -->
-            <button id="but">RESET</button>
+            <button id="but" onclick="reset()">RESET</button>
             <br>
             <br>
             <!-- Space to show player turn -->
