@@ -5,6 +5,7 @@
 h1 {
     color:mediumslateblue;
     font-size: 45px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
 }
 
 /* Main Container */
@@ -16,7 +17,7 @@ h1 {
 
 #ins {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: darkgoldenrod;
+    color: blueviolet;
     font-size: 17px;
 }
 /* 3x3 grid */
@@ -48,4 +49,7 @@ h1 {
     color: dodgerblue;
 }
 
-
+/* Background color */
+body{
+    background-color: #FFBF00;
+}
